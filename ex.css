@@ -1,0 +1,34 @@
+body {
+  font-size: 2em;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto; /*양옆 여백 자동으로 나누워 가져 가운데 위치*/
+  font-size: 0;
+}
+/*  */
+
+.item {
+  display: inline-block;
+  vertical-align: top;
+  padding: 5%;
+  font-size: 2rem; /*rem:html의 font-size를 기준으로 함*/
+}
+
+.item-a {
+  background-color: darksalmon;
+  width: 30%;
+}
+
+.tiem-b {
+  background-color: darkseagreen;
+  width: 50%;
+}
+/* box-sizing: content-box;로 하고 있어서 양옆 padding 값 제외하고 width 설정 */
+/* box-sizing: border-box;인 경우 40%, 60%로 width 설정하면 됨 */
